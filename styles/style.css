@@ -127,7 +127,7 @@ ul.lnb li a{
 }
 
 .paginate{
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
   text-align: center;
 }
 .paginate li{
@@ -143,4 +143,31 @@ ul.lnb li a{
 .paginate li .active{
   color: #181818;
   border-bottom:1px solid #181818;
+}
+
+.footer{
+  margin-top: 100px;
+  min-height: 300px;
+}
+.footer .sub-menu{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.footer .sub-menu li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer .sub-menu a{
+  font-size: 13px;
+}
+.footer p{
+  text-align: center;
+}
+.footer .tel-number{
+  margin-bottom:16px;
+}
+.footer .company-info{
+  color: #777777;
+  font-size: 12px;
+  line-height: 1.6;
 }
