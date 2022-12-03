@@ -5,3 +5,97 @@
   margin: 0;
   padding: 0;
 }
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:#222222;
+}
+
+
+.header .logo{
+  position: fixed;
+  top:5px;
+  left:50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+.header .logo a{
+  display: inline-block;
+  width: 200px;
+  height: 74px;
+  line-height: 74px;  
+}
+
+.gnb{
+  position: fixed;
+  top: 15px;
+  left: 100px;
+  display: flow-root;
+}
+.gnb li{
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+.gnb li a{
+  display: inline-block;
+  padding:0 15px;
+  font-size: 14px;
+}
+
+.member{
+  position: fixed;
+  top: 15px;
+  right: 100px;
+  display: flow-root;
+}
+.member li{
+  float: left;
+  margin-left: 10px;
+  height: 50px;
+  line-height: 50px;
+}
+.member li a{
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+ul.lnb{
+  text-align: center;
+  margin-top: 80px;
+}
+ul.lnb li{
+  display: inline-block;
+}
+ul.lnb li a{
+  display: inline-block;
+  padding:0px 10px;
+  font-size: 13px;
+}
+
+
+.main{
+  max-width: 1200px;
+  margin:40px auto 0 auto;
+}
+.category{
+  text-align: center;
+}
+.category li{
+  display: inline-block;
+}
+.category li a{
+  margin:0 8px;
+  font-size: 13px;
+}
+.category li.line{
+  font-size: 0;
+  width: 30px;
+  height: 1px;
+  line-height: 9px;
+  background-color: #222222;  
+}
