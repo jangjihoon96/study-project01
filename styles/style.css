@@ -10,7 +10,7 @@ li{
 }
 a{
   text-decoration: none;
-  color:#222222;
+  color:#181818;
 }
 
 
@@ -84,6 +84,7 @@ ul.lnb li a{
 }
 .category{
   text-align: center;
+  margin-bottom:20px;
 }
 .category li{
   display: inline-block;
@@ -97,5 +98,49 @@ ul.lnb li a{
   width: 30px;
   height: 1px;
   line-height: 9px;
-  background-color: #222222;  
+  background-color: #181818;  
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.product-list li{
+  width: 33%;
+  margin: 0 2px 50px 2px;
+  text-align: center;
+}
+.product-list li img{
+  width: 100%;
+  max-width: 356px;
+}
+.product-list p{
+  font-size: 13px;
+}
+.product-list .price{
+  font-size: 13px;
+  color:#9e9e9e;
+}
+.product-list li:last-child{
+  align-self: flex-start;
+}
+
+.paginate{
+  margin: 50px auto;
+  text-align: center;
+}
+.paginate li{
+  display: inline-block;
+}
+.paginate li .btn{
+  display: inline-block;
+  width:30px; height: 30px;
+  line-height: 30px;
+  color: #9e9e9e;
+  font-size:13px;
+}
+.paginate li .active{
+  color: #181818;
+  border-bottom:1px solid #181818;
 }
