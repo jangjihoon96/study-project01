@@ -1,0 +1,13 @@
+@import url(./style.css);
+
+.product-detail{
+  display: flex;
+  flex-flow: nowrap row-reverse;
+}
+.product-detail .contents-box{
+  width: 50%;
+}
+.img-content img{
+  width: 100%;
+  object-fit: fill;
+}
