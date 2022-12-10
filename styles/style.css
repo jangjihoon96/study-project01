@@ -110,6 +110,10 @@ ul.lnb li a{
   width: 33%;
   margin: 0 2px 50px 2px;
   text-align: center;
+  /* flex: 1 1 356px; */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 356px;
 }
 .product-list li img{
   width: 100%;
